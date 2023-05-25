@@ -12,11 +12,11 @@ func fun(s string) {
 	}
 }
 
-func main() {
-	// run two different goroutine
+// func main() {
+// 	// run two different goroutine
 
-	go fun("Hello")
-	go fun("World")
+// 	go fun("Hello")
+// 	go fun("World")
 
-	time.Sleep(1 * time.Second)
-}
+// 	time.Sleep(1 * time.Second)
+// }
