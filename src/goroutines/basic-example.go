@@ -13,8 +13,8 @@ func f() {
 	}
 }
 
-func main() {
-	go f()
+// func main() {
+// 	go f()
 
-	f()
-}
+// 	f()
+// }
